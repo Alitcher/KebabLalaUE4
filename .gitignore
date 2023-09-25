@@ -1,0 +1,59 @@
+# Unreal Engine 5 gitignore file
+
+# Exclude build folder
+/Build/
+
+# Exclude saved folder
+/Saved/
+
+# Exclude user-specific configs
+/Config/User*
+/Config/EditorPerProjectUserSettings.ini
+
+# Exclude intermediate folder
+/Intermediate/
+
+# Exclude binary files and executables
+/Binaries/
+/*.exe
+/*.dll
+/*.lib
+/*.exp
+/*.pdb
+/*.manifest
+/*.app
+/*.dylib
+/*.so
+/*.a
+
+# Exclude all .log files
+*.log
+
+# Exclude .DS_Store metadata on Mac
+.DS_Store
+
+# Exclude Visual Studio Code directory
+.vscode/
+
+# Exclude Visual Studio directory
+.vs/
+
+# Exclude IntelliJ IDEA directory
+.idea/
+
+# Exclude any auto-generated documentation
+/Docs/
+
+# Exclude packaged builds
+/Package/
+
+# Exclude the crash report client folder
+/CrashReportClient/
+
+# Exclude any temporary files
+*.tmp
+*.swp
+*.swo
+
+# Exclude user-specific asset files
+*.autosave
